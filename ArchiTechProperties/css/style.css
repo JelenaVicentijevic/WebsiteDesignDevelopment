@@ -1,0 +1,361 @@
+*{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+.bck{
+	background-color: #fff;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+a:hover,
+a:active,
+a:visited,
+a:link{
+	text-decoration: none;
+	color: #fff;
+}
+
+/*********************************************** HOME PAGE *************************************************/
+
+/*Background image*/
+.hero{
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	overflow: hidden;
+}
+
+h1{
+	margin: 0;
+	padding-top: 75px;
+	text-transform: uppercase;
+	font-size: 75px;
+	text-align: center;
+	font-weight: 100;
+}
+
+.bckg1{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(img/Bkgd1.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/Bkgd1.jpg);
+	color: #fff;
+	text-shadow: 0 0 10px #000;
+}
+
+.bckg2{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(img/Bkgd2.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img/Bkgd2.jpg);
+	color: #000;
+	text-shadow: 0 0 20px #fff;	
+}
+
+/* NAV MANU */
+.main-nav{
+	width: 100%;
+	height: 135px;
+	margin-top: 225px;
+	position: absolute;
+	background: rgba(155, 154, 154, 0.3);
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
+}
+
+.nav-content{
+	width: 1050px;
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.menu li{
+	padding-right: 45px;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.nav-content li:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	transition: transform 0.5s, -webkit-transform 0.5s;
+	
+}
+
+.logo img{
+	height: 135px;
+	-webkit-box-shadow: 0 0 25px #fff;
+	box-shadow: 0 0 25px #fff;
+}
+
+.social-icons img{
+	height: auto;
+	padding-right: 25px;
+}
+
+/************************************************ REAL ESTATE **********************************************************/
+
+body{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(img/Bkgd1.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/Bkgd1.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	padding: 0;
+	margin: 0;
+	display: none;
+	
+}
+
+/* HEADER PAGES */
+header{
+	display: inline;
+}
+
+.logo-pages img{
+	width: 9%;
+	-webkit-box-shadow: 0 0 25px #fff;
+	box-shadow: 0 0 25px #fff;
+	float: left;
+}
+.navigation{
+	float: left;
+	width: 91%;
+	height: 65px;
+}
+.nav-blured{
+	background: rgba(155, 154, 154, 0.3);
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
+}
+.navigation div{
+	width: 89%;
+	margin: 15px;
+}
+.nav-pages{
+	float: left;
+	font-size: 115%;
+	letter-spacing: 2px;
+	margin-left: 25px;
+	font-weight: 300;
+	text-shadow: 0 0 10px #000;
+}
+.nav-pages li{
+	margin-right: 35px;
+}
+.soc-icons-pages{
+	float: right;
+}
+
+.soc-icons-pages li{
+	margin-left: 25px;
+}
+.soc-icons-pages img{
+	width: 75%;
+	height: 75%;
+}
+
+.navigation li:hover{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	transition: transform 0.5s, -webkit-transform 0.5s;
+	
+}
+
+.navigation a{
+	color: #fff;
+	text-decoration: none;
+}
+
+/* MAIN PAGES */
+
+main{
+	clear: both;
+	display: inline-block;
+	width: 100%;
+}
+.grid{
+	background-color: #fff;
+	width: 82%;
+	margin: 0 auto;
+	float: left;
+	display: inline;
+	overflow: hidden;
+}
+
+.page-heading{
+	margin: 0 auto;
+	padding: 0;
+	width: 9%;
+	float: left;
+}
+h2{	
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 75px;
+	letter-spacing: 2px;
+	text-shadow: 0 0 10px #000;
+	-webkit-writing-mode: vertical-lr;
+	-ms-writing-mode: tb-lr;
+	writing-mode: vertical-lr;
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+	margin: 25px auto;
+	
+}
+
+/* REAL ESTATE PAGES */
+
+.real-estate{
+	padding: 3%;
+	width: 50%;
+	float: left;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.r-e-photo img{
+	width: 300px;
+	height: 200px;
+	float:left;
+	padding-right: 10px;
+}
+
+.ab-1:hover,
+.ab-2:hover,
+.grid .real-estate:hover{
+	-webkit-transform: scale(1.03);
+	transform: scale(1.03);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	transition: transform 0.5s, -webkit-transform 0.5s;
+	
+}
+
+.back,
+.r-e,
+.ab-1,
+.ab-2{
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.r-e{ height: 600px; }
+
+.back{
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
+}
+
+.property{
+	position: absolute;
+	bottom: 0;
+	right: 9%;
+	background-color: #fff;
+	width: 35%;
+	float: right;
+	padding: 25px;
+}
+
+h3, 
+h4, 
+p{ font-family: 'Roboto', sans-serif; }
+h3{
+	color: #851111;
+	font-family: 'Roboto', sans-serif;
+	font-size: 23px;
+	font-weight: 400;
+}
+
+h4{
+	color: #CF9101;
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	font-style: italic;
+	font-weight: 100;
+}
+
+p{ 
+	color: #242424;
+	font-size: 17px;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+}
+
+.r-e-1{ background-image: url(img/PropertyPhoto01.jpg); }
+.r-e-2{ background-image: url(img/PropertyPhoto02.jpg); }
+.r-e-3{ background-image: url(img/PropertyPhoto03.jpg); }
+.r-e-4{ background-image: url(img/PropertyPhoto04.jpg); }
+.r-e-5{ background-image: url(img/PropertyPhoto05.jpg); }
+.r-e-6{ background-image: url(img/PropertyPhoto06.jpg); }
+.r-e-7{ background-image: url(img/PropertyPhoto07.jpg); }
+.r-e-8{ background-image: url(img/PropertyPhoto08.jpg); }
+
+/* ABOUT */
+.ab-1, 
+.ab-2{
+	height: 265px;
+	float: left;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+}
+
+.about-text p{
+	color: #fff;
+	text-shadow: 0 0 10px #000;
+	font-weight: 400;
+	padding-bottom: 10px;
+	padding-left: 15%;
+}
+
+.ab-1{ width: 25%;}
+.ab-2{ width: 20%; }
+.about-1 { background-image: url(img/Profile1.jpg); }
+.about-2 { background-image: url(img/Profile2.jpg); }
+.about-3 { background-image: url(img/Profile3.jpg); }
+.about-4 { background-image: url(img/Profile4.jpg); }
+.about-5 { background-image: url(img/Profile5.jpg); }
+.about-6 { background-image: url(img/Profile6.jpg); }
+.about-7 { background-image: url(img/Profile7.jpg); }
+.about-8 { background-image: url(img/Profile8.jpg); }
+.about-9 { background-image: url(img/Profile9.jpg); }
+
+/* ANIMATION */
+
+.all{
+	overflow: hidden;
+}
+
+
+
