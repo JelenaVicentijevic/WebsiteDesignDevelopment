@@ -1,18 +1,18 @@
 $(document).ready(function() {
 
-$(function () {
-    $('body').show();
-});
+	$(function () {
+		$('body').show();
+	});
 	
 /* Mobile navigation */
+	
 	$('.js--nav-icon').click(function() {
 		var nav = $('.js--main-nav');
 		var icon = $('.js--nav-icon');
 		
 		nav.slideToggle(200);
 		
-	});
-
+	});	
 
  
 
@@ -27,14 +27,14 @@ $(function () {
         }
     });
 	
+	
+	
+	
+	
+	
+	
+});
 
-	
-	
-	
-	
-	
-	
-});
 $(window).load(function(){
-  $(body).show();
-});
+			$(body).show();
+		});

@@ -212,8 +212,8 @@ main{
 h2{	
 	text-transform: uppercase;
 	font-weight: 100;
-	font-size: 75px;
-	letter-spacing: 2px;
+	font-size: 405%;
+	letter-spacing: 2%;
 	text-shadow: 0 0 10px #000;
 	-webkit-writing-mode: vertical-lr;
 	-ms-writing-mode: tb-lr;
@@ -286,17 +286,18 @@ h2{
 h3, 
 h4, 
 p{ font-family: 'Roboto', sans-serif; }
+
 h3{
 	color: #851111;
 	font-family: 'Roboto', sans-serif;
-	font-size: 23px;
+	font-size: 100%;
 	font-weight: 400;
 }
 
 h4{
 	color: #CF9101;
 	font-family: 'Roboto', sans-serif;
-	font-size: 19px;
+	font-size: 90%;
 	font-style: italic;
 	font-weight: 100;
 }

@@ -11,7 +11,9 @@
 	
 	/* REAL ESTATE */
 	
-	
+	.mobile-icon{
+		display: none;
+	}
 	
 
 }
@@ -56,14 +58,58 @@
 	
 	/* REAL ESTATE */
 	
+	.mobile-icon{
+		display: none;
+	}
 	
+	.real-estate{
+		display: block;
+	}
+	.real-estate,
+	.r-e-text{
+		width: 100%;
+		float: left;
+		text-align: center;
+	}
 	
+	.nav-pages{
+		padding-left: 20px;
+		margin-left: 9px;
+	}
+	.soc-icons-pages{
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+	.soc-icons-pages img{
+	width: 65%;
+	height: 65%;
+	}
+	.nav-pages li{
+	margin-right: 25px;
+	}
+	.soc-icons-pages li{
+	margin-left: 15px;
+	}
+	.r-e-photo img{
+		width: 100%;
+		height: 300px;
+		margin: 0 auto;
+		padding: 0 auto;
+		padding-right: 0;
+	}
 	
-	
-	
+	h3,
+	h4{
+		font-size: 95%;
+		margin-bottom: 0;
+		padding-bottom: 0;
+		margin-top: 2%;
+	}
+	/* ABOUT */
+	.property{ background-color: rgba(255, 255, 255, 0.75); }
 	
 }
-
+	
 /* Mobile */
 @media only screen and (max-width:767px){
 	
@@ -127,10 +173,68 @@
 	
 	/* REAL ESTATE */
 	
+	h2{
+		font-size: 225%;
+	}
+	.nav-pages{
+		width: 50%;
+		margin-top: 65px;
+		padding: 0;
+		position: absolute;
+		top: 0;
+		right: 9%;
+		
+	}
+	.nav-pages li{
+		display: block;
+		background-color: rgba(18, 26, 51, 0.46);
+		padding-bottom: 10px;
+		padding-left: 10px;
+	}
 	
+	.logo-pages img{
+		min-width: 65px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 10;
+	}
+	.nav-blured{
+		width: 100%;
+	}
+	.mobile-icon{
+		display: block;
+		float: right;
+		padding-left: 81%;
+	}
+	.soc-icons-pages{
+		position: absolute;
+		top: 0;
+		left: 37%;
+	}
+	.soc-icons-pages img{
+	width: 85%;
+	height: 85%;
+	}
 	
+	/* ABOUT */
+	.ab-1,
+	.ab-2{
+		width: 50%;
+	}
+	.all{
+		overflow:visible;
+	}
 	
-}
+	/* PROPERTY */
+	.property{
+		padding: 3%;
+		width: 50%;
+	}
+	.property p{
+		font-size: 95%;
+	}
+	}
 
 @media only screen and (max-width:480px){
 	
@@ -152,6 +256,28 @@
 	
 	/* REAL ESTATE */
 	
+	.soc-icons-pages img{
+	width: 65%;
+	height: 65%;
+	}
+	.soc-icons-pages{
+		left: 33%;
+	}
+	h2{
+		font-size: 185%;
+	}
+	/* ABOUT */
+	.ab-1,
+	.ab-2{
+		width: 100%;
+	}
+	.grid{
+		width: 77%;
+		margin-left: 3%;
+	}
 	
+	/* PROPERTY */
+	.property{
 	
+	}
 }
