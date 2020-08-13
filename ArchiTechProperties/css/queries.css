@@ -108,6 +108,7 @@
 	/* ABOUT */
 	.property{ background-color: rgba(255, 255, 255, 0.75); }
 	
+	
 }
 	
 /* Mobile */
@@ -142,6 +143,7 @@
 		text-transform: uppercase;
 		text-align: right;
 		float: right;
+		display: none;
 	}
 	.menu-mobile li{
 		display: block;
@@ -183,6 +185,8 @@
 		position: absolute;
 		top: 0;
 		right: 9%;
+		z-index: 10;
+		display: none;
 		
 	}
 	.nav-pages li{
@@ -234,6 +238,29 @@
 	.property p{
 		font-size: 95%;
 	}
+	
+	/* CONTACT */
+	.form-section{
+		height: 100%;
+	}
+	
+	.row{
+		display: block;
+	}
+	.row input,
+	.row select,
+	.row textarea{
+		margin-top: 5px;
+	}
+	.left,
+	.right{
+		width: 100%;
+	}
+	.btn-row{
+		padding-top: 0;
+		margin-top: 0;
+	}
+	
 	}
 
 @media only screen and (max-width:480px){
@@ -276,8 +303,4 @@
 		margin-left: 3%;
 	}
 	
-	/* PROPERTY */
-	.property{
-	
-	}
 }

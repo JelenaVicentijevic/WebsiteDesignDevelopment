@@ -281,6 +281,7 @@ h2{
 	width: 35%;
 	float: right;
 	padding: 25px;
+	z-index: 5;
 }
 
 h3, 
@@ -357,6 +358,74 @@ p{
 .all{
 	overflow: hidden;
 }
+
+/* CONTACT */
+
+.form-section{
+	height: 600px;
+}
+
+.contact-form{
+	margin: 5% auto;
+}
+
+label,
+input,
+select,
+textarea{
+	font-family: 'Roboto', sans-serif;
+	color: #14142f;
+	font-weight: 100;
+}
+
+input,
+select,
+textarea{
+	width: 100%;
+}
+
+.left,
+.right{
+	margin: 0;
+	padding: 0;
+}
+
+.row{
+	width: 55%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin: 25px auto;
+}
+
+.left{
+	width: 45%;
+}
+.right{
+	width: 55%;
+}
+
+.btn-row{
+	width: 75px;
+	padding-top: 25px;
+}
+
+.btn-row input{
+	background-color: #161b45;
+	color: #fff;
+	border-radius: 5px;
+	padding: 5px 15px;
+	border: none;
+}
+
+.btn-row input:hover,
+.btn-row input:active{
+	background-color: #ff6403;
+}
+
 
 
 

@@ -6,15 +6,12 @@ $(document).ready(function() {
 	
 /* Mobile navigation */
 	
-	$('.js--nav-icon').click(function() {
-		var nav = $('.js--main-nav');
-		var icon = $('.js--nav-icon');
-		
-		nav.slideToggle(200);
+	$('.js--nav-icon').on('click', function() {
+		$('.js--main-nav').slideToggle(200);
 		
 	});	
-
- 
+	
+	
 
 	 $('.hero').click(function(){
         if($(this).hasClass('bckg1'))
@@ -27,7 +24,19 @@ $(document).ready(function() {
         }
     });
 	
-	
+	var switchMenuToActive = function () {
+  // Remove 'active' from home button
+  var classes = document.querySelector(".js--main-nav").className;
+  classes = classes.replace(new RegExp("active", "g"), "");
+  document.querySelector(".js--main-nav").className = classes;
+
+  // Add 'active' to menu button if not already there
+  classes = document.querySelector(".js--nav-icon").className;
+  if (classes.indexOf("active") === -1) {
+    classes += " active";
+    document.querySelector(".js--nav-icon").className = classes;
+  }
+};
 	
 	
 	

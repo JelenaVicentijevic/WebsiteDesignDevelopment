@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html class="bck">
+<html class="bck" >
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		
-		<title>About</title>
+		<title>Real Estate</title>
 		
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap" rel="stylesheet">
 		
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
@@ -23,7 +24,7 @@
 		<meta name="theme-color" content="#ffffff">
 	</head>
 	
-	<body div class="all animate__animated animate__fadeInUp">
+	<body class="all animate__animated animate__fadeInUp">
 		<div>
 			<header>
 				<div class="logo-pages">
@@ -47,34 +48,61 @@
 				</div>
 			</header>
 			<main>
-				<div class="page-heading"><h2>About</h2></div>
-				<div class="grid about-text">
-					<div class="about-1 ab-1">
-						<p>Paul Trani</p>
-					</div>
-					<div class="about-2 ab-1">
-						<p>Jane Doe</p>
-					</div>
-					<div class="about-3 ab-1">
-						<p>Max Smith</p>
-					</div>
-					<div class="about-4 ab-1">
-						<p>Enrique Peters</p>
-					</div>
-					<div class="about-5 ab-2">
-						<p>Melanie Jones</p>
-					</div>
-					<div class="about-6 ab-2">
-						<p>John Doe</p>
-					</div>
-					<div class="about-7 ab-2">
-						<p>Peggy Maxwell</p>
-					</div>
-					<div class="about-8 ab-2">
-						<p>John Johnson</p>
-					</div>
-					<div class="about-9 ab-2">
-						<p>Debbie Herrera</p>
+				<div class="page-heading"><h2>Contact</h2></div>
+				<div class="grid form-section">
+					<div class="form">
+						<form method="post" action="mailer.php" class="contact-form">
+							<div class="row">
+								<div class="left">
+									<label for="name">Name</label>
+								</div>
+								<div class="right">
+									<input name="name" id="name" placeholder="Your name" required>
+								</div>
+							</div>
+							<div class="row">
+								<div class="left">
+									<label for="name">Email</label>
+								</div>
+								<div class="right">
+									<input name="email" id="email" placeholder="Your e-mail" required>
+								</div>
+							</div>
+							<div class="row">
+								<div class="left">
+									<label for="find-us">How did you find us?</label>
+								</div>
+								<div class="right">
+									<select name="find-us" id="find-us">
+										<option value="friends" selected>Social networks</option>
+										<option value="search">Search engine</option>
+										<option value="ad">Advertisement</option>
+										<option value="other">Friend</option>
+									</select>
+								</div>
+							</div>
+							<div class="row">
+								<div class="left">
+									<label for="news">Newsletter</label>
+								</div>
+								<div class="right">
+									<input type="checkbox" name="news" id="news" checked>
+								</div>
+							</div>
+							<div class="row">
+								<div class="left">
+									<label>Message</label>
+								</div>
+								<div class="right">
+									<textarea name="message" placeholder="Your message"></textarea>
+								</div>
+							</div>
+							<div class="row btn-row">
+									<label class="btn">&nbsp;</label>
+									<input type="submit" value="Send">
+							</div>
+
+						</form>
 					</div>
 				</div>
 			</main>
