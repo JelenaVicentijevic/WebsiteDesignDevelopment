@@ -121,7 +121,6 @@ body{
 	padding: 0;
 	margin: 0;
 	display: none;
-	
 }
 
 /* HEADER PAGES */
@@ -353,12 +352,6 @@ p{
 .about-8 { background-image: url(img/Profile8.jpg); }
 .about-9 { background-image: url(img/Profile9.jpg); }
 
-/* ANIMATION */
-
-.all{
-	overflow: hidden;
-}
-
 /* CONTACT */
 
 .form-section{
@@ -366,7 +359,7 @@ p{
 }
 
 .contact-form{
-	margin: 5% auto;
+	margin: 0 auto;
 }
 
 label,
@@ -426,6 +419,32 @@ textarea{
 	background-color: #ff6403;
 }
 
+.g-recaptcha {
+	margin: 0 auto;
+	}
 
+.status p{
+	font-size: 19px;
+	color: green;
+	text-align: center;
+	padding-top: 25px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
 
+.status span{
+	color: red;
+}
 
+/* ANIMATION */
+
+.all{
+	overflow: hidden;
+}
+
+.animate__animated.animate__fadeInUp,
+.animate__animated.animate__fadeInDown,
+.animate__animated.animate__fadeInLeft,
+.animate__animated.animate__fadeInRight{
+  --animate-duration: 1s;
+}

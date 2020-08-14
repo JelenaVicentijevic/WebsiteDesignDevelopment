@@ -227,7 +227,7 @@
 		width: 50%;
 	}
 	.all{
-		overflow:visible;
+		overflow: visible;
 	}
 	
 	/* PROPERTY */
@@ -242,15 +242,20 @@
 	/* CONTACT */
 	.form-section{
 		height: 100%;
+		padding: 15px;
 	}
 	
 	.row{
 		display: block;
+		width: 85%;
+		padding: 0;
+		margin-bottom: 5px; 
+		margin-top: 20px;
 	}
 	.row input,
 	.row select,
 	.row textarea{
-		margin-top: 5px;
+		margin-top: 3px;
 	}
 	.left,
 	.right{
@@ -259,9 +264,10 @@
 	.btn-row{
 		padding-top: 0;
 		margin-top: 0;
+		width: 75px;
 	}
 	
-	}
+}
 
 @media only screen and (max-width:480px){
 	

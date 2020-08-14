@@ -1,17 +1,17 @@
 $(document).ready(function() {
 
-	$(function () {
-		$('body').show();
-	});
+	
+	$("body").fadeIn();
 	
 /* Mobile navigation */
+	
 	
 	$('.js--nav-icon').on('click', function() {
 		$('.js--main-nav').slideToggle(200);
 		
 	});	
 	
-	
+/* Background img */
 
 	 $('.hero').click(function(){
         if($(this).hasClass('bckg1'))
@@ -24,26 +24,35 @@ $(document).ready(function() {
         }
     });
 	
-	var switchMenuToActive = function () {
-  // Remove 'active' from home button
-  var classes = document.querySelector(".js--main-nav").className;
-  classes = classes.replace(new RegExp("active", "g"), "");
-  document.querySelector(".js--main-nav").className = classes;
-
-  // Add 'active' to menu button if not already there
-  classes = document.querySelector(".js--nav-icon").className;
-  if (classes.indexOf("active") === -1) {
-    classes += " active";
-    document.querySelector(".js--nav-icon").className = classes;
-  }
-};
+/* Page animation with animate.css */
+	$(function(){
+   		var hash = window.location.hash.substring(1);
+  		if(hash =="up")
+    	$("html").addClass("animate__fadeInUp");
+		
+	});
+	
+	$(function(){
+	var hash = window.location.hash.substring(1);
+		if(hash =="down")
+    	$("html").addClass("animate__fadeInDown");
+	});
 	
 	
+	$(function(){	
+		var hash = window.location.hash.substring(1);
+		if(hash =="left")
+    	$("html").addClass("animate__fadeInRight");
+		});
 	
+	$(function(){	
+		var hash = window.location.hash.substring(1);
+		if(hash =="right")
+    	$("html").addClass("animate__fadeInLeft");
+		});
 	
 	
 });
 
-$(window).load(function(){
-			$(body).show();
-		});
+
+	
